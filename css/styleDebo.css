@@ -1,0 +1,60 @@
+/* Pour utiliser ces variables, faire :
+--> "color: var(--c1)" */
+
+:root {
+    --c1: #007266;
+    --c2: #f7d075;
+    --c3: #C4E0D8;
+    --c4: #304A48;
+    --c5: #838383;
+    --c6: #F4F4F4;
+    --crete: 'Crete Round', serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.vert {
+    color: var(--c1);
+}
+
+.grey {
+    color: var(--c5);
+}
+
+/* CHECKOUT */
+.title-checkout h1 {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: -30px;
+}
+
+.title-checkout {
+    background-color: var(--c4);
+    width: 80%;
+    margin: auto;
+}
+
+.recap-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.product .title p {
+    margin: 0;
+}
+
+.product img {
+    max-width: 70px;
+    margin-right: 10px;
+}
